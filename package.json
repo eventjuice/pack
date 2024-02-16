@@ -1,0 +1,18 @@
+{
+  "name": "eventjuice",
+  "version": "0.0.1",
+  "description": "Tools for event management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+   "scripts": {
+    "build": "tsup src/index.ts --dts"
+  },
+  "author": "eventjuice.dev",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.2"
+  }
+}
